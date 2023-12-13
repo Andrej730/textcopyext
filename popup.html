@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="js/res/bootstrap-3.3.6/css/bootstrap.min.css">
+  <script src="js/res/jquery-2.2.0.min.js"></script>
+   <script src="js/res/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/popup.js"></script>
+  <style type="text/css">
+body {
+  min-width: 500px; /* your desired width */
+  max-width: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <h1><span id="spanOther">Text Copy is:</span>
+  <span id="spanStatus" class="label label-default"></span></h1>
+
+  <div>
+    <button id="switchEnable" type="button" class="btn btn-default">
+    
+    <span id="spanEnabled">Turn Text Copy </span>
+    <span id="spanButtonChange">Off</span>
+
+  </button>
+    <div id="status">
+      <p>
+        <br>
+Current Functions
+<br><br>
+1. Ctrl+Shift - Single Select<br>
+This will highlight the text at the location of your mouse cursor. The text within the tags you are hovering over will be highlighted and automatically copied to clipboard.
+<br><br>
+2. Ctrl+Alt - Range Select<br>
+First select a peice of text with Ctrl+Alt, then select another piece of text with Ctrl+Alt and TextCopy will select the 2 peices of text and everything in between. The text will also be automatically copied to the clipboard.
+
+</p>
+    </div>
+
+
+</body>
+</html>

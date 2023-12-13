@@ -1,0 +1,8 @@
+sidebarBox {
+	width: 100px; /* Replace with your sidebar width */
+	float: right;
+	position: relative;
+}
+.scrollingBox {
+	width: 100px; /* Replace with the same width as sidebar */
+}
